@@ -1,0 +1,1 @@
+[ -f "/Users/xieyuanliang/.ghcup/env" ] && source "/Users/xieyuanliang/.ghcup/env" # ghcup-env

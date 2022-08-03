@@ -1,0 +1,1 @@
+export PATH="$PATH:/Users/xieyuanliang/Library/Application Support/multipass/bin"
