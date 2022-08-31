@@ -1,1 +1,1 @@
-export PATH="$PATH:/Users/xieyuanliang/Library/Application Support/multipass/bin"
+export PATH="/Users/xieyuanliang/Library/Application Support/multipass/bin":$PATH

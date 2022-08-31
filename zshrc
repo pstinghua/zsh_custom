@@ -1,7 +1,9 @@
 # Fig pre block. Keep at the top of this file.
 [[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+
+
 # If you come from bash you might have to change your $PATH.
-PATH=$HOME/bin:/usr/local/sbin:/usr/local/bin:$PATH
+PATH=$HOME/bin:/usr/local/sbin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/xieyuanliang/.oh-my-zsh"
@@ -10,7 +12,7 @@ export ZSH="/Users/xieyuanliang/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -86,7 +88,6 @@ plugins=(
     rbenv
     rust
     sdk
-#    shell-proxy
     z
     zsh-autosuggestions
 )
@@ -117,9 +118,8 @@ export LANG=en_US.UTF-8
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# alias ohmyzsh="mate ~/.oh-my-zsh
 
-eval "$(starship init zsh)"
 
 # Fig post block. Keep at the bottom of this file.
 [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
